@@ -2,6 +2,8 @@
 
 这个实验统计 AMDGPU 后端中显式触发 SelectionDAG fallback 的 GlobalISel 编译实例，并保留可复查的原始证据。它不要求 AMD GPU：只运行前端和后端编译，不执行生成的程序。
 
+完整的研究背景、SelectionDAG 与 GlobalISel 的关系以及实验结果解读，见博客文章：[从宽操作数修复到 AMDGPU GlobalISel fallback：双指令选择流水线研究与实测](https://jinmoza.github.io/posts/llvm-amdgpu-globalisel-fallback-study/)。
+
 实验固定以下输入：
 
 - LLVM `4c22a9f755be90fa8ce385f589761033609fe66f`
