@@ -1,0 +1,32 @@
+{
+  "case_id": "7dca32ebe1e89f2a",
+  "function": "v_fneg_arithmetic_fence_f16",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcff7e314d5/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcff7e314d5/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "fneg-combines.legal.f16.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcff7e314d5/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC|f16|vgpr"
+}

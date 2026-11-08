@@ -1,0 +1,32 @@
+{
+  "case_id": "3dad3ec2b629b18d",
+  "function": "bitcast_v11i64_to_v11f64",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b46d25daea5/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b46d25daea5/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "amdgcn.bitcast.704bit.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b46d25daea5/original.ll"
+  ],
+  "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<11 x f64>|unassigned"
+}

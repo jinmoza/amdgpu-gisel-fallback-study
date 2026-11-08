@@ -1,0 +1,32 @@
+{
+  "case_id": "0dacd908d5bc9c22",
+  "function": "v4i1",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/52de299a3af5/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/52de299a3af5/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "cttz-elts.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/52de299a3af5/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_TRUNC|<4 x i1>|vgpr"
+}

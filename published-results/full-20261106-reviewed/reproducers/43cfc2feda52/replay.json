@@ -1,0 +1,32 @@
+{
+  "case_id": "1f8a4cff39e91fdd",
+  "function": "v3i15_arg",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/43cfc2feda52/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/43cfc2feda52/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "kernel-argument-dag-lowering.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/43cfc2feda52/original.ll"
+  ],
+  "signature": "gisel-legalize|unable to legalize instruction|G_STORE|<3 x i15>|unassigned"
+}

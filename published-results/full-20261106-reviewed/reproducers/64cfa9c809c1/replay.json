@@ -1,0 +1,32 @@
+{
+  "case_id": "005c531feddbefc4",
+  "function": "copysign_known_signmask_f32_known_positive_mag_through_fence",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/64cfa9c809c1/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/64cfa9c809c1/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "copysign-to-disjoint-or-combine.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/64cfa9c809c1/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC|f32|vgpr"
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "3634e02ecfb96862",
+  "function": "v_ctpop_add_chain_i16",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/08e57373393a/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/08e57373393a/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "ctpop16.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/08e57373393a/original.ll"
+  ],
+  "signature": "gisel-select|cannot select|G_TRUNC|i16|vgpr_32"
+}

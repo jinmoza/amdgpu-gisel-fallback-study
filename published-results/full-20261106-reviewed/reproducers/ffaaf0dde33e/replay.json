@@ -1,0 +1,32 @@
+{
+  "case_id": "08951881d6c69325",
+  "function": "frexp_nan_clamp_exp_bf16",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffaaf0dde33e/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffaaf0dde33e/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "frexp-inf-nan-combine.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffaaf0dde33e/original.ll"
+  ],
+  "signature": "gisel-legalize|unable to legalize instruction|G_FFREXP|bf16|unassigned"
+}

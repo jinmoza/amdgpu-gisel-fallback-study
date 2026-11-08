@@ -1,0 +1,32 @@
+{
+  "case_id": "d80cfee68119089f",
+  "function": "buffer_fat_ptr_agent_atomic_usub_sat_noret_u32__offset__amdgpu_no_fine_grained_memory",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/8bc9259a3d9a/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/8bc9259a3d9a/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "buffer-fat-pointer-atomicrmw-usub_sat.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/8bc9259a3d9a/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_AMDGPU_BUFFER_ATOMIC_SUB_CLAMP_U32|i32|vgpr"
+}

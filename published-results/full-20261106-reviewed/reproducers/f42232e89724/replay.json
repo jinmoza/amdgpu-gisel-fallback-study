@@ -1,0 +1,32 @@
+{
+  "case_id": "28f36163f804b290",
+  "function": "store_as4_half",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/f42232e89724/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f42232e89724/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "store-to-constant.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f42232e89724/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|f16|sgpr"
+}

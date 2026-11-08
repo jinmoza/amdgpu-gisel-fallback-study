@@ -1,0 +1,959 @@
+[
+  {
+    "case_id": "bb5b189c87c3a906",
+    "cluster_id": "6219ffe9ac03",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6219ffe9ac03/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6219ffe9ac03/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: missing fast rule ('Div' or 'Uni') for|G_SELECT|p8|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "1b2e5c7502078c4c",
+    "cluster_id": "657f0d6bae91",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/657f0d6bae91/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/657f0d6bae91/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_ADD|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "14db782a3365",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/14db782a3365/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/14db782a3365/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_AND|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "d46b957bdfec",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d46b957bdfec/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d46b957bdfec/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_MAX|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "c34d27ce2d53",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c34d27ce2d53/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c34d27ce2d53/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_MIN|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "7bb5e5e2baa1",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7bb5e5e2baa1/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7bb5e5e2baa1/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_OR|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "220674a6c76e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/220674a6c76e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/220674a6c76e/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_SUB|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "eef4e1bb4528",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/eef4e1bb4528/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/eef4e1bb4528/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_UMAX|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "9f60f9cefa0b",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9f60f9cefa0b/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9f60f9cefa0b/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_UMIN|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "514db3f2fe2c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/514db3f2fe2c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/514db3f2fe2c/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_XCHG|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "4f8ce0aff1191df9",
+    "cluster_id": "79b942a875f2",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/79b942a875f2/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/79b942a875f2/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_XOR|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "98aec3d9229265de",
+    "cluster_id": "37c8e3bbbf03",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/37c8e3bbbf03/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/37c8e3bbbf03/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_BUILD_VECTOR|<7 x f64>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e6b06d7fdc63c44",
+    "cluster_id": "b72a31620571",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b72a31620571/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b72a31620571/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_BUILD_VECTOR|<7 x f64>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e6b06d7fdc63c44",
+    "cluster_id": "d7f0bc95ef88",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d7f0bc95ef88/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d7f0bc95ef88/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_BUILD_VECTOR|<7 x i64>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e6b06d7fdc63c44",
+    "cluster_id": "d824ba06987e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d824ba06987e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d824ba06987e/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_BUILD_VECTOR|<7 x i64>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e6b06d7fdc63c44",
+    "cluster_id": "22375dd27573",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/22375dd27573/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/22375dd27573/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_IMPLICIT_DEF|<7 x f64>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e6b06d7fdc63c44",
+    "cluster_id": "131ed00cb84b",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/131ed00cb84b/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/131ed00cb84b/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_IMPLICIT_DEF|<7 x i64>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "006c5454f6abd576",
+    "cluster_id": "bbeb0dae8c83",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/bbeb0dae8c83/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/bbeb0dae8c83/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_INTRINSIC_W_SIDE_EFFECTS|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "46bb6ba6b982951b",
+    "cluster_id": "20a4b90fe84e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/20a4b90fe84e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/20a4b90fe84e/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_INTRINSIC_W_SIDE_EFFECTS|i64|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "63937fd15f7c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/63937fd15f7c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/63937fd15f7c/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<2 x bf16>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "a88bab3a945d",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a88bab3a945d/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a88bab3a945d/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<2 x f16>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "f373a5dd330f",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f373a5dd330f/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f373a5dd330f/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<2 x i16>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "6f8bdbe410f3",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6f8bdbe410f3/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6f8bdbe410f3/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<2 x i32>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "7063ec9ec883",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7063ec9ec883/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7063ec9ec883/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<3 x i32>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "9d677821be8e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9d677821be8e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9d677821be8e/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<4 x bf16>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "169f9a938187",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/169f9a938187/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/169f9a938187/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<4 x f16>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "84f7a8b4d561",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/84f7a8b4d561/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/84f7a8b4d561/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<4 x i32>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "932e185de7c45f41",
+    "cluster_id": "c1002e51fcea",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c1002e51fcea/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c1002e51fcea/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|bf16|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "932e185de7c45f41",
+    "cluster_id": "a8f01b483185",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a8f01b483185/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a8f01b483185/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|f16|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "dbc7011a56a0",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dbc7011a56a0/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dbc7011a56a0/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|f32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "dd19bb3b80e8",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dd19bb3b80e8/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dd19bb3b80e8/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|f64|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "932e185de7c45f41",
+    "cluster_id": "c1901840726c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c1901840726c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c1901840726c/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|i16|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "41c9e0a2d39f",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/41c9e0a2d39f/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/41c9e0a2d39f/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "9362a0ec93d6",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9362a0ec93d6/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9362a0ec93d6/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|i64|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "a0c78d560a13",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a0c78d560a13/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a0c78d560a13/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|p1|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "d842b1e918f2",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d842b1e918f2/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d842b1e918f2/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|p2|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "7b5eccf4d268",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b5eccf4d268/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b5eccf4d268/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|p3|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "018dcd0b383507c7",
+    "cluster_id": "0ef36d3354b9",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0ef36d3354b9/original.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_PTRMASK|p0|vgpr",
+    "status": "failed"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "f32454b1a748",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f32454b1a748/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f32454b1a748/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_SEXTLOAD|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "2242e9dd1c95",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2242e9dd1c95/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2242e9dd1c95/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|<2 x f16>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "3cffa55b6ce0",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3cffa55b6ce0/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3cffa55b6ce0/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|<2 x f32>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "b64e36ad53d5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b64e36ad53d5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b64e36ad53d5/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|<2 x f64>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "ff43b161aaa4",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff43b161aaa4/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff43b161aaa4/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|<2 x i16>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "6af809d8c93d",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6af809d8c93d/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6af809d8c93d/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|<2 x i32>|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "f42232e89724",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f42232e89724/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f42232e89724/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|f16|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "f2fd34645c9c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f2fd34645c9c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/f2fd34645c9c/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|f32|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "a3313cb12304",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a3313cb12304/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a3313cb12304/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|f64|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "dbdb6bb7f805",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dbdb6bb7f805/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dbdb6bb7f805/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|i16|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "381f0aa549c2",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/381f0aa549c2/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/381f0aa549c2/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|i32|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "28f36163f804b290",
+    "cluster_id": "588e97c3965c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/588e97c3965c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/588e97c3965c/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_STORE|i64|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "0dacd908d5bc9c22",
+    "cluster_id": "52de299a3af5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/52de299a3af5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/52de299a3af5/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_TRUNC|<4 x i1>|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "2d5f36fa820099f5",
+    "cluster_id": "5fcd551774a2",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/5fcd551774a2/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/5fcd551774a2/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_TRUNC|i16|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "0dacd908d5bc9c22",
+    "cluster_id": "4ef2fa6c0218",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4ef2fa6c0218/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4ef2fa6c0218/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_TRUNC|i8|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "280c8630e33022f9",
+    "cluster_id": "a53457b21bd0",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a53457b21bd0/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a53457b21bd0/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ZEXTLOAD|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "d80cfee68119089f",
+    "cluster_id": "8bc9259a3d9a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/8bc9259a3d9a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/8bc9259a3d9a/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_AMDGPU_BUFFER_ATOMIC_SUB_CLAMP_U32|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "fd26374647241939",
+    "cluster_id": "2dba2da3c433",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2dba2da3c433/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2dba2da3c433/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC_W_SIDE_EFFECTS|unknown|unknown",
+    "status": "ok"
+  },
+  {
+    "case_id": "7dca32ebe1e89f2a",
+    "cluster_id": "3bcff7e314d5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcff7e314d5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcff7e314d5/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC|f16|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "005c531feddbefc4",
+    "cluster_id": "64cfa9c809c1",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/64cfa9c809c1/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/64cfa9c809c1/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC|f32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "0dacd908d5bc9c22",
+    "cluster_id": "157d3eb3c176",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/157d3eb3c176/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/157d3eb3c176/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_INTRINSIC|i32|vgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "17056aa080efbb28",
+    "cluster_id": "b5fca4c8f96a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b5fca4c8f96a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/b5fca4c8f96a/reduced.ll",
+    "signature": "amdgpu-reg-bank-legalize|No AMDGPU RegBankLegalize rules defined for opcode|G_STACKRESTORE|p5|sgpr",
+    "status": "ok"
+  },
+  {
+    "case_id": "56f24a5e5655e836",
+    "cluster_id": "33a270840b23",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/33a270840b23/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/33a270840b23/reduced.ll",
+    "signature": "gisel-ir-translator|unable to translate instruction|unknown|unknown|unknown",
+    "status": "ok"
+  },
+  {
+    "case_id": "6878edb5be89fce1",
+    "cluster_id": "9abb196bac7e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9abb196bac7e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/9abb196bac7e/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_ATOMICRMW_XCHG|p0|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "1fd27c7b72f531a3",
+    "cluster_id": "0d0766a5a905",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0d0766a5a905/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0d0766a5a905/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_CLMUL|i32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "1fd27c7b72f531a3",
+    "cluster_id": "6a51020f362e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6a51020f362e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6a51020f362e/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_CLMUL|i64|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "3e293d1ad967802a",
+    "cluster_id": "e7c0181f70e5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/e7c0181f70e5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/e7c0181f70e5/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_CTLZ_ZERO_POISON|i32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "57bc28189577f7c0",
+    "cluster_id": "4dc3ebe36c11",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4dc3ebe36c11/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4dc3ebe36c11/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FCOS|bf16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "2da5e4916d644d4e",
+    "cluster_id": "dd556b6ce0fe",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dd556b6ce0fe/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dd556b6ce0fe/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FDIV|bf16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "08951881d6c69325",
+    "cluster_id": "ffaaf0dde33e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffaaf0dde33e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffaaf0dde33e/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FFREXP|bf16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "b4d4b7976cbf6c3b",
+    "cluster_id": "4189148a210e",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4189148a210e/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4189148a210e/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FLOG|bf16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "5100a3a4c1d64310",
+    "cluster_id": "ff46f88f637a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff46f88f637a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff46f88f637a/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FNEARBYINT|f16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "2027477bc6ccb4a9",
+    "cluster_id": "a8f9567a273b",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a8f9567a273b/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/a8f9567a273b/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FNEARBYINT|f32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "5100a3a4c1d64310",
+    "cluster_id": "4056bbc877d8",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4056bbc877d8/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4056bbc877d8/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FNEARBYINT|f64|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "89497c9522a4b914",
+    "cluster_id": "e7d4d1dc446a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/e7d4d1dc446a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/e7d4d1dc446a/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FPTRUNCSTORE|s32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "1d5c607eb1013609",
+    "cluster_id": "fc07fe89d4e6",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/fc07fe89d4e6/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/fc07fe89d4e6/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FREEZE|<9 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "244156f886a28df5",
+    "cluster_id": "0a9cb3d812bc",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0a9cb3d812bc/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0a9cb3d812bc/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_FSIN|bf16|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "0a2508e5f55e5489",
+    "cluster_id": "307e072a145c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/307e072a145c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/307e072a145c/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_GET_FPMODE|i32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "378470088d5ccba7",
+    "cluster_id": "ff17ffd8dfc5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff17ffd8dfc5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff17ffd8dfc5/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<10 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "378470088d5ccba7",
+    "cluster_id": "ef79b8fee6c5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ef79b8fee6c5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ef79b8fee6c5/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<10 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "3dad3ec2b629b18d",
+    "cluster_id": "7b46d25daea5",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b46d25daea5/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/7b46d25daea5/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<11 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "3dad3ec2b629b18d",
+    "cluster_id": "3cd5cf45d2b3",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3cd5cf45d2b3/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3cd5cf45d2b3/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<11 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "77dccf34fe26ca47",
+    "cluster_id": "df72295b891b",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/df72295b891b/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/df72295b891b/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<12 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "77dccf34fe26ca47",
+    "cluster_id": "3bcdc39b843d",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcdc39b843d/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3bcdc39b843d/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<12 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "022a732395734a6a",
+    "cluster_id": "82cb735a77be",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/82cb735a77be/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/82cb735a77be/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<13 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "022a732395734a6a",
+    "cluster_id": "01b4456161b4",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/01b4456161b4/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/01b4456161b4/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<13 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "0c38b15d62176f83",
+    "cluster_id": "dba55eb8a628",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dba55eb8a628/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/dba55eb8a628/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<14 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "0c38b15d62176f83",
+    "cluster_id": "95e5b299ff72",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/95e5b299ff72/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/95e5b299ff72/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<14 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "ab4c8dfb4f03ab9a",
+    "cluster_id": "4e591417c0f8",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4e591417c0f8/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4e591417c0f8/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<15 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "ab4c8dfb4f03ab9a",
+    "cluster_id": "05289c3c8b11",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/05289c3c8b11/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/05289c3c8b11/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<15 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "175b9161855e6708",
+    "cluster_id": "436b88209da4",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/436b88209da4/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/436b88209da4/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<9 x f64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "2e015cd3f8c63a01",
+    "cluster_id": "0ff577c2c96f",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0ff577c2c96f/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0ff577c2c96f/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_IMPLICIT_DEF|<9 x i64>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "1a7e158af661d7fc",
+    "cluster_id": "06104861c873",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/06104861c873/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/06104861c873/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_INSERT_SUBVECTOR|<16 x i16>|unassigned",
+    "status": "failed"
+  },
+  {
+    "case_id": "80eb7dae0a578d64",
+    "cluster_id": "1d95218c4e71",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/1d95218c4e71/original.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_INSERT_VECTOR_ELT|<2 x i128>|unassigned",
+    "status": "failed"
+  },
+  {
+    "case_id": "550810d4b8531329",
+    "cluster_id": "0f947f4f3a47",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0f947f4f3a47/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0f947f4f3a47/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_INTRINSIC|i32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "aa918e616210614c",
+    "cluster_id": "ffdcc5d6d987",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffdcc5d6d987/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ffdcc5d6d987/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_LOAD|<7 x i9>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "441ab29efc8fadbf",
+    "cluster_id": "084266644c0b",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/084266644c0b/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/084266644c0b/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_STORE|<16 x i63>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "77f54438de0c7f6c",
+    "cluster_id": "102a61a34778",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/102a61a34778/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/102a61a34778/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_STORE|<2 x i65>|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "1f8a4cff39e91fdd",
+    "cluster_id": "43cfc2feda52",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/43cfc2feda52/original.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_STORE|<3 x i15>|unassigned",
+    "status": "failed"
+  },
+  {
+    "case_id": "68eb4994992f2e1f",
+    "cluster_id": "c9590495635a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c9590495635a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c9590495635a/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UBSANTRAP|unknown|unknown",
+    "status": "ok"
+  },
+  {
+    "case_id": "aea913de8975ea39",
+    "cluster_id": "2cd12c8d6f01",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2cd12c8d6f01/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/2cd12c8d6f01/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UREM|i127|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "aea913de8975ea39",
+    "cluster_id": "3e3f9a130167",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3e3f9a130167/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/3e3f9a130167/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UREM|i65|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "aea913de8975ea39",
+    "cluster_id": "15259280a3d3",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/15259280a3d3/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/15259280a3d3/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UREM|i66|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "aea913de8975ea39",
+    "cluster_id": "20cf14e3dc8d",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/20cf14e3dc8d/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/20cf14e3dc8d/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UREM|i67|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "aea913de8975ea39",
+    "cluster_id": "6d16ab41340c",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6d16ab41340c/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6d16ab41340c/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_UREM|i68|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "51a39613802c2f8a",
+    "cluster_id": "4b0e16418da1",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4b0e16418da1/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/4b0e16418da1/reduced.ll",
+    "signature": "gisel-legalize|unable to legalize instruction|G_ZEXT|i32|unassigned",
+    "status": "ok"
+  },
+  {
+    "case_id": "c6659f327c5fb0a6",
+    "cluster_id": "c48118147629",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c48118147629/original.bc",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/c48118147629/reduced.bc",
+    "signature": "gisel-select|cannot select|G_INTRINSIC_CONVERGENT|i32|sreg_32",
+    "status": "ok"
+  },
+  {
+    "case_id": "3634e02ecfb96862",
+    "cluster_id": "08e57373393a",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/08e57373393a/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/08e57373393a/reduced.ll",
+    "signature": "gisel-select|cannot select|G_TRUNC|i16|vgpr_32",
+    "status": "ok"
+  },
+  {
+    "case_id": "4894513258fe0b81",
+    "cluster_id": "0b4ebbf93e50",
+    "final_check_status": "ok",
+    "original": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0b4ebbf93e50/original.ll",
+    "reduced": "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0b4ebbf93e50/reduced.ll",
+    "signature": "gisel-select|instruction is not legal|G_ADD|i64|vgpr",
+    "status": "ok"
+  }
+]

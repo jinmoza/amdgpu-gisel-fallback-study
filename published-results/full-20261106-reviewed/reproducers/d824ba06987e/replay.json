@@ -1,0 +1,32 @@
+{
+  "case_id": "3e6b06d7fdc63c44",
+  "function": "bitcast_v7i64_to_v7f64",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/d824ba06987e/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d824ba06987e/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "amdgcn.bitcast.448bit.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/d824ba06987e/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_BUILD_VECTOR|<7 x i64>|vgpr"
+}

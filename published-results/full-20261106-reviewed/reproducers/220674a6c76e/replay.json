@@ -1,0 +1,32 @@
+{
+  "case_id": "4f8ce0aff1191df9",
+  "function": "atomic_sub_ret_gds",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx900",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/220674a6c76e/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/220674a6c76e/original.ll"
+  ],
+  "gpu": "gfx900",
+  "input_id": "gds-atomic.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx900",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/220674a6c76e/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_ATOMICRMW_SUB|i32|vgpr"
+}

@@ -1,0 +1,3 @@
+Calling convention disallows stack byref
+ptr @byref_flat_i32_arg
+<WORKSPACE>/build/llvm/bin/llvm-reduce: error: <WORKSPACE>/results/full-20261106-reviewed/reproducers/43cfc2feda52/original.ll - input module is broken!

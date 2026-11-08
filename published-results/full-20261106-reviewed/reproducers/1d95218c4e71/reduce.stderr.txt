@@ -1,0 +1,11 @@
+PtrToAddr result must be address width
+  %ret = ptrtoaddr ptr addrspace(7) %ptr to i32
+PtrToAddr result must be address width
+  %ret = ptrtoaddr <2 x ptr addrspace(7)> %ptr to <2 x i32>
+PtrToAddr result must be address width
+  %addr = ptrtoaddr ptr addrspace(7) %ptr to i32
+PtrToAddr result must be address width
+  %addr = ptrtoaddr ptr addrspace(7) %ptr to i32
+llvm.ptrmask intrinsic second argument bitwidth must match pointer index type size of first argument
+  %ret = call ptr addrspace(7) @llvm.ptrmask.p7.i32(ptr addrspace(7) %p, i32 %mask)
+<WORKSPACE>/build/llvm/bin/llvm-reduce: error: <WORKSPACE>/results/full-20261106-reviewed/reproducers/1d95218c4e71/original.ll - input module is broken!

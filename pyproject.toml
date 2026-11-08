@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amdgpu-gisel-fallback-study"
+version = "0.1.0"
+description = "Reproducible measurement of AMDGPU GlobalISel fallback"
+requires-python = ">=3.10"
+dependencies = ["PyYAML==6.0.3"]
+license = {file = "LICENSE.TXT"}
+
+[project.scripts]
+gisel-study = "gisel_study.cli:main"
+
+[tool.setuptools]
+packages = ["gisel_study"]
+
+[tool.ruff]
+extend-exclude = ["published-results"]

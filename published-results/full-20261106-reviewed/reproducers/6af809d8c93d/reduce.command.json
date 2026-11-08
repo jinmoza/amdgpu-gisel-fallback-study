@@ -1,0 +1,8 @@
+[
+  "<WORKSPACE>/build/llvm/bin/llvm-reduce",
+  "--abort-on-invalid-reduction",
+  "-j",
+  "2",
+  "--test=<WORKSPACE>/results/full-20261106-reviewed/reproducers/6af809d8c93d/interesting.py",
+  "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6af809d8c93d/original.ll"
+]

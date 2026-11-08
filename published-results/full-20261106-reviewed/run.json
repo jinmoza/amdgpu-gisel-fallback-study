@@ -1,0 +1,44 @@
+{
+  "case_count": 11322,
+  "docker_image": "rocm/dev-ubuntu-24.04:7.2.4@sha256:bdc8e61026cbb844ede93d44d2c50055f51ebb2041906b60182bf3bee3139054",
+  "fallback_function_instances": 6111,
+  "finished_at": "2026-11-06T10:48:23.949904+00:00",
+  "hip_input_count": 92,
+  "hip_optimization_levels": [
+    "O0",
+    "O2"
+  ],
+  "llvm_actual_sha": "4c22a9f755be90fa8ce385f589761033609fe66f",
+  "llvm_build_provenance": {
+    "llvm_enable_assertions": true,
+    "llvm_sha": "4c22a9f755be90fa8ce385f589761033609fe66f",
+    "llvm_source": "<WORKSPACE>/third_party/llvm-project",
+    "schema": 1,
+    "tools": {
+      "clang++": "91708aeac9e91c50b17374cc68731050f44fb03ca8474df2a7661b2bb29a7858",
+      "llc": "280d8e955c6561fe93a07153b25a1e23e89165219d48ccaa49db686be3cb0ed7",
+      "llvm-as": "960a9c6aed44eb1deba6aadb29a932a87c9b5422929a8abc3207b394e21f8bf9",
+      "llvm-nm": "d4dbc68c346e2ad2d254e4098a01d3e5ca1f5a9a484cb8670190775ff9f9219c",
+      "llvm-reduce": "d84205d38b98bd0011dd5cc9e3b2e3d12f8d29e6871a0cadbab1cd0ca88dcd1c"
+    }
+  },
+  "llvm_input_count": 3590,
+  "llvm_sha": "4c22a9f755be90fa8ce385f589761033609fe66f",
+  "outcomes": {
+    "gisel_crash": 61,
+    "gisel_fallback_sdag_success": 885,
+    "gisel_success": 6095,
+    "sdag_invalid": 4191,
+    "source_compile_failure": 90
+  },
+  "rocm_examples_actual_sha": "9f678a8b432d4bb95090c6f32e3d5f18b05b7afe",
+  "rocm_examples_sha": "9f678a8b432d4bb95090c6f32e3d5f18b05b7afe",
+  "run_id": "full-20261106-reviewed",
+  "started_at": "2026-11-06T10:11:04.085009+00:00",
+  "targets": [
+    "gfx900",
+    "gfx1030",
+    "gfx1100"
+  ],
+  "workers": 8
+}

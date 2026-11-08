@@ -1,0 +1,25 @@
+llvm:
+  source: third_party/llvm-project
+  build: build/llvm
+  sha: 4c22a9f755be90fa8ce385f589761033609fe66f
+
+rocm_examples:
+  source: third_party/rocm-examples
+  sha: 9f678a8b432d4bb95090c6f32e3d5f18b05b7afe
+
+docker_image: rocm/dev-ubuntu-24.04:7.2.4@sha256:bdc8e61026cbb844ede93d44d2c50055f51ebb2041906b60182bf3bee3139054
+
+targets:
+  - gfx900
+  - gfx1030
+  - gfx1100
+
+hip_optimization_levels:
+  - O0
+  - O2
+
+workers: 8
+
+timeouts:
+  llvm: 60
+  hip: 180

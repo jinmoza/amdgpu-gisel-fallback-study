@@ -1,0 +1,32 @@
+{
+  "case_id": "280c8630e33022f9",
+  "function": "atomic_load_v4f16",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/169f9a938187/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/169f9a938187/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "gds-load-store.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/169f9a938187/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: none of the rules defined with 'Any' for MI's opcode matched MI|G_LOAD|<4 x f16>|vgpr"
+}

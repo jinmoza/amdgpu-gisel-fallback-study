@@ -1,0 +1,32 @@
+{
+  "case_id": "1a7e158af661d7fc",
+  "function": "buildvector_undefs",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/06104861c873/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/06104861c873/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "undef-build-vector.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/06104861c873/original.ll"
+  ],
+  "signature": "gisel-legalize|unable to legalize instruction|G_INSERT_SUBVECTOR|<16 x i16>|unassigned"
+}

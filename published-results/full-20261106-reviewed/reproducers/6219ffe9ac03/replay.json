@@ -1,0 +1,32 @@
+{
+  "case_id": "bb5b189c87c3a906",
+  "function": "sum_new_buffer_on_negative",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/6219ffe9ac03/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6219ffe9ac03/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "lower-buffer-fat-pointers-control-flow.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/6219ffe9ac03/original.ll"
+  ],
+  "signature": "amdgpu-reg-bank-legalize|AMDGPU RegBankLegalize: missing fast rule ('Div' or 'Uni') for|G_SELECT|p8|vgpr"
+}

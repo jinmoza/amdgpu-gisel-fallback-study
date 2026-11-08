@@ -1,0 +1,3 @@
+llvm.ptrmask intrinsic second argument bitwidth must match pointer index type size of first argument
+  %masked = call ptr addrspace(3) @llvm.ptrmask.p3.i32(ptr addrspace(3) %ptr, i32 %mask)
+<WORKSPACE>/build/llvm/bin/llvm-reduce: error: <WORKSPACE>/results/full-20261106-reviewed/reproducers/0ef36d3354b9/original.ll - input module is broken!

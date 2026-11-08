@@ -1,0 +1,32 @@
+{
+  "case_id": "5100a3a4c1d64310",
+  "function": "fnearbyint_f16",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff46f88f637a/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff46f88f637a/original.ll"
+  ],
+  "gpu": "gfx1030",
+  "input_id": "fnearbyint.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1030",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/ff46f88f637a/original.ll"
+  ],
+  "signature": "gisel-legalize|unable to legalize instruction|G_FNEARBYINT|f16|unassigned"
+}

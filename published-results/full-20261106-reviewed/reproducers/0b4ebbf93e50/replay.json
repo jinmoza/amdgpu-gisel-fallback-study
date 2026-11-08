@@ -1,0 +1,32 @@
+{
+  "case_id": "4894513258fe0b81",
+  "function": "sshlsat_i64",
+  "gisel_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=1",
+    "-global-isel-abort=2",
+    "-pass-remarks-missed=gisel.*",
+    "-pass-remarks-format=yaml",
+    "-pass-remarks-output=<WORKSPACE>/results/full-20261106-reviewed/reproducers/0b4ebbf93e50/replay-remarks.yaml",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0b4ebbf93e50/original.ll"
+  ],
+  "gpu": "gfx1100",
+  "input_id": "GlobalISel/irtranslator-sat.ll",
+  "opt": "O2",
+  "sdag_command": [
+    "<WORKSPACE>/build/llvm/bin/llc",
+    "-mtriple=amdgcn-amd-amdhsa",
+    "-mcpu=gfx1100",
+    "-O2",
+    "-verify-machineinstrs",
+    "-filetype=null",
+    "-global-isel=0",
+    "<WORKSPACE>/results/full-20261106-reviewed/reproducers/0b4ebbf93e50/original.ll"
+  ],
+  "signature": "gisel-select|instruction is not legal|G_ADD|i64|vgpr"
+}
